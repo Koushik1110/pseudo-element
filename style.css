@@ -1,0 +1,49 @@
+/* pseudo element */
+
+.pseudo-element{
+    color: red;
+    background-color:rgb(87, 160, 159);
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin-left: 550px;
+}
+.pseudo-element:hover{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.hover-heading{
+    text-align: center;
+    color: rgb(127, 180, 255);
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-left: 550px;
+    padding: 5px;
+}
+.hover-heading:hover{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.hover-description{
+    text-align: center;
+    font-size: 18px;
+}
+.hover-text{
+    color: red;
+    font-size: 22px;
+}
+li:first-child{
+    color: brown;
+}
+li:last-child{
+    color: lightgreen;
+}
