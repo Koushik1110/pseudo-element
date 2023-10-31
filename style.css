@@ -47,3 +47,23 @@ li:first-child{
 li:last-child{
     color: lightgreen;
 }
+/* positions*/
+.image{
+    display: block;
+    border: 1px dashed gray;
+    width: 200px;
+}
+.boy{
+    position: relative;
+    z-index: 2;
+}
+.ring{
+    position: relative;
+    left: 0;
+    top: -60px;
+    z-index: 1;
+}
+.water{
+    position: relative;
+    top: -150px;
+}
