@@ -1,4 +1,4 @@
-/* pseudo element */
+                                /* pseudo element */
 
 .pseudo-element{
     color: red;
@@ -47,7 +47,9 @@ li:first-child{
 li:last-child{
     color: lightgreen;
 }
-/* positions*/
+
+                            /* positions*/
+
 .image{
     display: block;
     border: 1px dashed gray;
@@ -66,4 +68,19 @@ li:last-child{
 .water{
     position: relative;
     top: -150px;
+}
+
+                            /* overflow*/
+
+.overflow_heading{
+    margin-left: 550px;
+    border: 2px solid gray;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+.overflow{
+    border: 2px solid red;
+    height: 200px;
+    overflow: scroll;
 }
